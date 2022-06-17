@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=DarshakPatel5&count_private=true&theme=dark)](https://github.com/DarshakPatel5/DarshakPatel5)
+
 <!--
 **DarshakPatel5/DarshakPatel5** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
