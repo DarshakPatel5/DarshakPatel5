@@ -7,7 +7,7 @@ DevOps / Platform Engineer with **12+ years** across the full infrastructure sta
 - 🔭 Currently building and operating multi-cloud infrastructure on **GCP, AWS, and Azure**
 - ⚙️ I like making infrastructure *boring* — reproducible, observable, and safe to change
 - 🏆 Part of the Improbable team recognized in the **[2022 Google Cloud DevOps Awards](https://cloud.google.com/blog/products/devops-sre/devops-awards-2022-winner-improbable)** — "Unleashing the Full Power of the Cloud"
-- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/darshakpatel5)
+- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/darshak-patel-devops/)
 
 ---
 
