@@ -95,10 +95,24 @@ DevOps / Platform Engineer with **12+ years** across the full infrastructure sta
 
 ### 💡 What I do
 
-- **Infrastructure as Code** — multi-account, multi-cloud Terraform estates: reusable modules, remote state, landing-zone governance, and keyless OIDC / Workload Identity Federation
-- **CI/CD & Releases** — GitHub Actions and GitLab CI at scale: plan-on-PR / apply-on-merge, approval-gated promotion, blue/green deploys
-- **Compute & Containers** — Cloud Run, Compute Engine MIGs, EC2 Auto Scaling Groups, and Kubernetes (EKS, GKE, Kubespray, RKE)
-- **Reliability** — SLOs, burn-rate alerting, uptime checks, and production on-call
+- **Infrastructure as Code** — multi-account, multi-cloud Terraform estates (GCP, AWS, Azure): reusable modules, remote state, environment promotion, and landing-zone governance (AWS Organizations + SCP guardrails, SSO/SAML, Workload Identity Federation, PAM just-in-time access)
+- **CI/CD & Releases** — GitHub Actions and GitLab CI at scale: plan-on-PR / apply-on-merge with sticky plan comments, reusable workflows, matrix builds, approval-gated global → dev → staging → prod promotion, automated image-bump PRs, and blue/green slot deploys — all on keyless OIDC auth
+- **Compute & Containers** — serverless microservices on Cloud Run, stateful workloads on Compute Engine MIGs and EC2 Auto Scaling Groups, and Kubernetes / Docker Swarm game-server clusters (EKS, GKE, Kubespray, RKE) behind global load balancers, Cloud CDN, and Cloud Armor WAF
+- **Databases** — Cloud SQL and Amazon RDS / Aurora (PostgreSQL: IAM auth, PITR, replicas, pg_partman partitioning), Memorystore / Redis, and QuestDB, with golang-migrate migrations via the Cloud SQL Auth Proxy
+- **Observability & Reliability** — Cloud Monitoring SLOs with burn-rate alerting, Google Managed Prometheus via OpenTelemetry, Grafana Cloud, and Datadog, plus production on-call and incident response
+- **Security & Cost** — Secret Manager, KMS, least-privilege service accounts, and cost control via registry cleanup, owner-tag attribution, and right-sizing
+
+---
+
+### 📈 Highlights
+
+- ⚡ Cut primary CI build times from **60 → 15 min**, and metaverse deploy builds from **90 → 25 min**
+- 🚀 Moved from weekly rollouts to **deploy-on-every-merge** — hundreds of deployments per day
+- 💰 Dropped cost per build job from **$1.7 → $0.5** (one project: **$900k → $120k / year**)
+- 🟢 Lifted build-job success rates to **99.99%**
+- 🏆 Contributed to Improbable's **2022 Google Cloud DevOps Award** win
+
+> Metrics from Improbable's CI/CD transformation, [recognized by Google Cloud](https://cloud.google.com/blog/products/devops-sre/devops-awards-2022-winner-improbable).
 
 <!--
 This is my GitHub profile README (repo DarshakPatel5/DarshakPatel5).
